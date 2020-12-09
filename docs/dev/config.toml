@@ -1,0 +1,47 @@
+baseURL = "/"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+
+title = "Hugo Learn Documentation"
+theme = "learn"
+
+[params]
+themeVariant = "blue"
+disableNextPrev = true
+# editURL = "https://github.com/matcornic/hugo-theme-learn/edit/master/exampleSite/content/"
+# description = "Documentation for Hugo Learn Theme"
+# author = "Mathieu Cornic"
+# showVisitedLinks = true
+# disableBreadcrumb = false
+# disableLandingPageButton = true
+# disableMermaid = false
+# customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
+# titleSeparator = "::"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[Languages]
+#[Languages.en]
+#title = "Documentation for Hugo Learn Theme"
+#weight = 1
+#languageName = "English"
+#landingPageURL = "/en"
+#landingPageName = "<i class='fas fa-home'></i> Home"
+
+#[[Languages.en.menu.shortcuts]]
+#name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+#identifier = "ds"
+#url = "https://github.com/matcornic/hugo-theme-learn"
+#weight = 10
+
+#[[Languages.en.menu.shortcuts]]
+#name = "<i class='fas fa-fw fa-bookmark'></i> Hugo Documentation"
+#identifier = "hugodoc"
+#url = "https://gohugo.io/"
+#weight = 20
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-camera'></i> Logout"
+url = "logout"
+weight = 100
